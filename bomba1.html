@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bomba" />
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="func.js"></script>
+    <style>
+        body {
+            background-image: url(https://i.redd.it/qyc83fs2mm221.jpg);
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="headerrr">
+        <table>
+            <tr>
+                <td style="width:1370px">
+                    <div style="width:1050px; text-align:left">
+                        <img class="dota2" src="https://i.pinimg.com/originals/6e/d3/f6/6ed3f675bfac2911e76af434ab0f52de.jpg" />
+                        <ssilka><a id="description" href="bomba1.html">REGISTRATION</a></ssilka>
+                        <ssilka><a id="description1" href="bomba2.html">LOG IN</a></ssilka>
+                        <ssilka><a id="description2" href="bomba3.html">INFO</a></ssilka>
+                        <ssilka><a id="description3" href="bomba4.html">SEARCH</a></ssilka>
+                        <ssilka><a id="description4" href="bomba5.html">MY ACCOUNT</a></ssilka>
+                    </div>
+                </td>
+                <td>
+                <div class="dropdown"  style="text-align:right; background-color:black;">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                        Language
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li onclick="toggleLanguage('English')"><a href="#">English</a></li>
+                        <li onclick="toggleLanguage('Russian')"><a href="#">Russian</a></li>
+                    </ul>
+
+                </div>
+                    </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <div class="centercolumnn">
+        <div class="container" style="width:1000px; text-align:center">
+            <h2 style="color:white">FAQ</h2>
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="background-color:red; border-color:black">Registration is...</button>
+            <div id="demo" class="collapse">
+                <p style="color:white">
+                    Registration is a method of officially recording something. Usually something is registered to claim more rights, or to protect ownership, or because the law says it must be registered to be used legally.
+
+                    A register was a large book. It was used like a diary to record business dealings or other events.
+                </p>
+            </div>
+        </div>
+        <br />
+        <form id="form" class="form-signin">
+
+            <label for="email" class="sr-only">Email address</label>
+            <input type="email" id="email" class="form-control" placeholder="Email address" required>
+            <small></small>
+
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" id="password" class="form-control" placeholder="Password" required>
+            <small></small>
+
+            <label for="password_repeat" class="sr-only">Password</label>
+            <input type="password" id="password_repeat" class="form-control" placeholder="Repeat your password" required>
+            <small></small>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="agreement" required> I agree with the terms
+                </label>
+            </div>
+
+            <button class="btn btn-md btn-primary btn-block" type="submit" id="submit">Submit</button>
+            <button class="btn btn-md btn-primary btn-block" type="reset">Reset</button>
+
+        </form>
+    </div>
+
+
+        <script>
+            function toggleLanguage(language) {
+            let description = document.getElementById("description");
+            let description1 = document.getElementById("description1");
+            let description2 = document.getElementById("description2");
+            let description3 = document.getElementById("description3");
+            let description4 = document.getElementById("description4");
+            if (language === "Russian") {
+            description.innerHTML = "РЕГИСТРАЦИЯ";
+            description1.innerHTML = "ВОЙТИ";
+            description2.innerHTML = "ИНФОРМАЦИЯ";
+            description3.innerHTML = "ИСКАТЬ";
+            description4.innerHTML = "МОЙ АККАУНТ";
+            }
+            else {
+            description.innerHTML = "REGISTRATION";
+            description1.innerHTML = "LOG IN";
+            description2.innerHTML = "INFO";
+            description3.innerHTML = "SEARCH";
+            description4.innerHTML = "MY ACCOUNT";
+            }
+            }
+        </script>
+</body>
+</html>

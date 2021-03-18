@@ -1,0 +1,125 @@
+.en_lang {
+    position: absolute; top: -9999px; left: -9999px
+}
+
+.headerrr {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: static;
+}
+ 
+ .dota2{
+     width:100px;
+     height:100px;
+     margin-left:30px;
+ }
+
+ssilka {
+    font-size: 25px;
+    color: white;
+    margin-left:30px;
+}
+
+#description:link{
+    color:white;
+}
+
+#description:visited {
+    color: white;
+}
+
+
+#description:active {
+    color: white;
+}
+
+#description:hover {
+    color: red;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.centercolumnn{
+    height:800px;
+    width:1000px;
+    background-color:black;
+    margin-left:250px;
+    margin-top:50px;
+}
+
+#description1:link {
+    color: white;
+}
+
+#description1:visited {
+    color: white;
+}
+
+
+#description1:active {
+    color: white;
+}
+
+#description1:hover {
+    color: red;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+#description2:link {
+    color: white;
+}
+
+#description2:visited {
+    color: white;
+}
+
+
+#description2:active {
+    color: white;
+}
+
+#description2:hover {
+    color: red;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+#description3:link {
+    color: white;
+}
+
+#description3:visited {
+    color: white;
+}
+
+
+#description3:active {
+    color: white;
+}
+
+#description3:hover {
+    color: red;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+#description4:link {
+    color: white;
+}
+
+#description4:visited {
+    color: white;
+}
+
+
+#description4:active {
+    color: white;
+}
+
+#description4:hover {
+    color: red;
+    border-bottom: none;
+    text-decoration: none;
+}
