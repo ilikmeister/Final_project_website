@@ -1,0 +1,33 @@
+{
+"posts": [
+  {"id": 1, "email": "lebronjames@gmail.com", "password": "kingJames23$"},
+  {"id": 2, "email": "kevindurant@gmail.com", "password": "Easymoneysniper8*"},
+  {"id": 3, "email": "stephencurry30@yahoo.com", "password": "TheBestSh00ter^"},
+  {"id": 4, "email": "leomessi10@gmail.com", "password": "GeniyFutbola10#"},
+  {"id": 5, "email": "vladimirputin@mail.ru", "password": "motherRussia228$"}
+  ],
+
+"mider": [
+  {"id": 1, "name": "shadow fiend", "winrate": "54%"},
+  {"id": 2, "name": "storm spirit", "winrate": "52%"},
+  {"id": 3, "name": "skywrath mage", "winrate": "50%"},
+  {"id": 4, "name": "templar assassin", "winrate": "49%"},
+  {"id": 5, "name": "invoker", "winrate": "51%"}
+  ],
+
+"carry": [
+  {"id": 6, "name": "phantom assassin", "winrate": "54%"},
+  {"id": 7, "name": "lifestealer", "winrate": "52%"},
+  {"id": 8, "name": "anti-mage", "winrate": "50%"},
+  {"id": 9, "name": "sven", "winrate": "49%"},
+  {"id": 10, "name": "wraith king", "winrate": "51%"}
+  ],
+
+"support": [
+  {"id": 11, "name": "earth spirit", "winrate": "54%"},
+  {"id": 12, "name": "rubick", "winrate": "52%"},
+  {"id": 13, "name": "shadow shaman", "winrate": "50%"},
+  {"id": 14, "name": "lion", "winrate": "49%"},
+  {"id": 15, "name": "crystal maiden", "winrate": "51%"}
+  ]
+}
