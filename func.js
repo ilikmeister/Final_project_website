@@ -69,7 +69,7 @@ function postRequest() {
         password: user_password
     }
 
-    http.open("POST", 'https://my-json-server.typicode.com/ilikmeister/database/posts', false);
+    http.open("POST", 'https://my-json-server.typicode.com/ilikmeister/Final_project_website/posts', false);
 
     http.onreadystatechange = function () {
         console.log(http.status);
@@ -95,7 +95,7 @@ function getRequest() {
         "password": user_password
     }
 
-    var postsObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/database/posts', false);
+    var postsObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/Final_project_website/posts', false);
     var json = JSON.parse(postsObj);
 
     if (userObj.email == json.email && userObj.password == json.password) {
@@ -115,13 +115,13 @@ const hero = document.getElementById('hero');
 
 var http = new XMLHttpRequest();
 
-var miderObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/database/mider', false);
+var miderObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/Final_project_website/mider', false);
 var json1 = JSON.parse(miderObj);
 
-var carryObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/database/carry', false);
+var carryObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/Final_project_website/carry', false);
 var json2 = JSON.parse(carryObj);
 
-var supportObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/database/support', false);
+var supportObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/Final_project_website/support', false);
 var json3 = JSON.parse(supportObj);
 
 if (hero.value == "Mider" || hero.value == "mider") {
@@ -150,15 +150,15 @@ function profile() {
 
     var http = new XMLHttpRequest();
 
-    var myObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/database/posts', false);
+    var myObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/Final_project_website/posts', false);
 
-    var miderObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/database/mider', false);
+    var miderObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/Final_project_website/mider', false);
     var json1 = JSON.parse(miderObj);
 
-    var carryObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/database/carry', false);
+    var carryObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/Final_project_website/carry', false);
     var json2 = JSON.parse(carryObj);
 
-    var supportObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/database/support', false);
+    var supportObj = http.open("GET", 'https://my-json-server.typicode.com/ilikmeister/Final_project_website/support', false);
     var json3 = JSON.parse(supportObj);
 
 }
